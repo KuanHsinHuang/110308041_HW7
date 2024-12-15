@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="main-container">
+
+  <!-- Left Panel -->
+  <div class="left-panel">
+    <!-- Photo Panel: Profile Picture and Background Image -->
+    <div class="photo-panel">
+      <img src="dog_1.jpg" alt="Dog" class="photo-image">
+      <div class="text-content">
+        <h1 id="name">Kuan Hsin H.</h1>
+        <button id="editButton">Edit</button>
+        <div class="about-me">
+          <h3>About Me</h3>
+          <p>I am a senior in the Department of Risk Management and Insurance at NCCU. I am very interested in studying programming and computer science fundamentals. I have experience in writing Java, HTML, CSS, JavaScript, and Python.</p>
+        </div>
+        <div class="contact-info">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:110308041@nccu.edu.tw">110308041@nccu.edu.tw</a></p>
+        </div>
+        <div class="nccu-logo">
+          <img src="nccu.jpg" alt="NCCU Logo" width="150" height="50">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right Panel -->
+  <div class="right-panel">
+    <!-- Education Section -->
+    <div class="section education">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="year">2023 - Present</span>
+          <p>NCCU Department of RMI</p>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2021 - 2023</span>
+          <p>Zhongli Senior High School</p>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2018 - 2021</span>
+          <p>Eureka High School, SD</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Homework List Section -->
+    <div class="section homework">
+      <h2>Homework List</h2>
+      <ul>
+        <li><a href="#" target="_blank">HW1</a></li>
+        <li><a href="#" target="_blank">HW2</a></li>
+        <li><a href="#" target="_blank">HW3</a></li>
+        <li><a href="#" target="_blank">HW4</a></li>
+        <li><a href="#" target="_blank">LAB_1108</a></li>
+        <li><a href="#" target="_blank">LAB_1116</a></li>
+      </ul>
+    </div>
+
+    <!-- Favorite Music Section -->
+    <div class="section favorite-music">
+      <h2>Favorite Music</h2>
+      <div id="music-list" class="music-images">
+        <a href="https://www.youtube.com/watch?v=PMsV6D5HJWs" target="_blank">
+          <img src="youtube.jpg" alt="Music 1" class="music-img">
+          <p class="song-name">分手後不要做朋友</p>
+        </a>
+        <a href="https://www.youtube.com/watch?v=Ew4VvF0DPMc" target="_blank">
+          <img src="youtube.jpg" alt="Music 2" class="music-img">
+          <p class="song-name">以後別做朋友</p>
+        </a>
+      </div>
+      <button id="addMusicButton">Add</button>
+    </div>
+
+    <div class="section note">
+      <p>These are songs suitable for a breakup and for when you just want to cry. Each of these tracks resonates deeply with emotions of sadness and longing.</p>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

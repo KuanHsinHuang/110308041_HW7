@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 330px 540px; 
+  grid-gap: 20px; 
+  width: 900px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  width: 330px; 
+}
+
+.photo-panel {
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+}
+
+.photo-image {
+  width: 100%;
+}
+
+.text-content {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+.music-images a {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.music-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.song-name {
+  margin-top: 5px;
+}
